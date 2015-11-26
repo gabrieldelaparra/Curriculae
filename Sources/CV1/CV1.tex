@@ -1,0 +1,83 @@
+%% Exemple de CV en LaTeX. 
+%% Nicolas Couchoud
+%% 2000
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[francais]{babel}
+\usepackage[latin1]{inputenc}
+
+\begin{document}
+
+% Je ne veux pas de numero de page
+\pagestyle{empty}
+
+% \annee est la largeur de la premiere colonne, c'est a dire celle
+% contenant l'annee scolaire. Elle est ici definie comme etant la
+% largeur du texte « janvier-fevrier ». À adapter le cas echeant.
+
+\newlength{\annee}
+\settowidth{\annee}{Janvier--fevrier}
+
+% \texte est la largeur de la deuxieme colonne. Elle est definie comme
+% etant la largeur de la page moins celle de la premiere colonne.
+% 2\tabcolsep est la largeur de l'espacement entre les colonnes.
+
+\newlength{\texte}
+\setlength{\texte}{\textwidth} \addtolength{\texte}{-\annee} 
+	\addtolength{\texte}{-2\tabcolsep}
+
+\begin{center} \large \sc Curriculum vitae \end{center}
+
+% Le \noindent au debut et les \\ ensuite servent a eviter
+% l'indentation. (Idem dans la rubrique « Divers ».)
+\noindent {\large Nicolas \sc Couchoud} \\
+48, boulevard Jourdan \\
+75014 Paris \\
+Tel. : 01.45.80.76.04
+
+% Ici vient le CV lui-même.
+% Les @{} servent a eviter que LaTeX mette un espacement avant la premiere
+% colonne et apres la derniere.
+% Les \par servent a passer a la ligne au sein d'une colonne.
+
+\subsection*{Estudios}
+\noindent \begin{tabular}{@{}p{\annee}p{\texte}@{}}
+ & Ne le 12 janvier 1978 a Saint-Etienne (Loire). \\
+1994 & Baccalaureat C (mathematiques et sciences physiques), mention 
+tres bien. \\
+1994--1996 & Mathematiques Superieures et Mathematiques Speciales au lycee
+Claude Fauriel (Saint-Etienne). \\
+1996 & Entree a l'Ecole Normale Superieure de Paris. \\
+1996--1997 & Licence de physique, mention bien et debut de maîtrise a
+l'Universite Paris VI. \par
+	Magistere interuniversitaire de physique (MIP) premiere annee. \\
+1997--1998 & Fin de maîtrise de physique, mention bien. \par
+	Magistere interuniversitaire de physique (MIP) deuxieme annee. \\
+1998--1999 & DEA de Physique Theorique a l'ENS, mention tres bien 
+(3eme rang). \\
+1999--2000 & Preparation a l'agregation de sciences physiques, option physique.
+\par
+	Fin de la troisieme annee du magistere interuniversitaire de physique.
+\end{tabular}
+
+\subsection*{Stages en laboratoire}
+\noindent \begin{tabular}{@{}p{\annee}p{\texte}@{}}
+Septembre 1997 & Etude de la force de van der Waals entre des atomes de
+cesium et une paroi. \par
+	Laboratoire de Physique des Lasers, Universite Paris XIII. \\
+Janvier--juin 1998 & Mesure de la masse du neutrino electronique. \par
+	Universite de Mayence (Allemagne). \\
+Janvier--fevrier 1999 & Photoproduction de mesons dans l'accelerateur
+CEBAF. \par
+	Commissariat a l'Energie Atomique (Saclay).
+\end{tabular}
+
+\subsection*{Divers}
+\noindent
+Anglais et allemand courants. \\
+Connaissance de base Unix (dont Linux). \\
+Tuteur informatique a l'ENS depuis janvier 1999. (Les tuteurs sont des eleves
+volontaires qui encadrent des stages de formation aux machines Unix.) \\
+Connaissance de base du langage C.
+
+\end{document}
