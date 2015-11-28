@@ -1,0 +1,64 @@
+Education:
+2015 - Present: M.Sc. in Computer Science - Universidad de Chile, Chile
+2010 - 2011: M.Sc. in Electrical Engineering - Automation, Measurement and Control - TU Dresden, Germany
+2007 – 2009: M.Sc. in Electrical Engineering - Process Automation – Universidad de Santiago de Chile, Chile
+2004 – 2007: B.Sc. in Electrical Engineering – Universidad de Santiago de Chile, Chile
+
+Work Experience
+
+Position:
+Research and Development Engineer
+- Technical System Modelling
+
+Substation Electrical Drawings Automation Tools:
+- Terminal Placement
+- Panel Routing
+- Revision Management
+- Connection Line Style
+- Device Management
+- Signal Management
+- Communication Architecture
+
+Project Documentation Automation Tools
+- Wire Connection List
+- Bill of Material 
+- Panel Labels
+- Factory Acceptance Tests Certification Documents
+
+IEDs Configuration Automation Tools
+- Template DB generation
+- Automated Configuration Generation
+
+SCADA Configuration Automation Tools
+- Template DB generation
+- Automated Configuration Generation 
+
+Team IT Infraestructure Productivity Tools
+
+Position:
+Project Engineer in ABB's Substation Automation and Protection Division
+Employee:
+ABB
+Experience:
+- Control and Protection Schemes design and development.
+- Substation's Electrical Drawings Design and Draft.
+- Project Documentation design and development.
+- Control and Protection Series IEDs configuration.
+- Technical meetings assitance
+
+Position:
+Research and development intern in the Europe's SensoControl division
+Employee:
+Parker Hannifin GmbH, Bielefeld, Germany
+Experience:
+- Circuit/PCB design, construction and testing.
+- System architecture based on the IOLink system specification. Hardware and software design, construction, programming, testing for a USB–IOLink communication interface prototype.
+- COM Wrappers for unmanaged C libraries.
+- LABView interface design and programming for device's production chain.
+- Prototypes’ HMI simulators design and develpment for analysis and testing.
+- Project documentation.
+
+
+Research Experience:
+Artificial Vision - License plate number detection for parking control on AForge.Net.
+
