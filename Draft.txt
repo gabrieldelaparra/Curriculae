@@ -7,10 +7,18 @@ Education:
 Work Experience
 
 Position:
-Research and Development Engineer
-- Technical System Modelling
+Project Engineer / Research and Development Engineer in ABB's Power System Substation Automation, Protection and Control Division.
+Employee:
+ABB S.A.
+Experience:
++ Substation Electrical Drawings Automation Tools:
++ Project Documentation Automation Tools
++ IEDs Configuration Automation Tools
++ SCADA Configuration Automation Tools
++ Team IT Infraestructure Productivity Tools
 
-Substation Electrical Drawings Automation Tools:
+Some of the developments include:
+- Technical System Modelling
 - Terminal Placement
 - Panel Routing
 - Revision Management
@@ -18,33 +26,23 @@ Substation Electrical Drawings Automation Tools:
 - Device Management
 - Signal Management
 - Communication Architecture
-
-Project Documentation Automation Tools
 - Wire Connection List
 - Bill of Material 
 - Panel Labels
 - Factory Acceptance Tests Certification Documents
-
-IEDs Configuration Automation Tools
-- Template DB generation
-- Automated Configuration Generation
-
-SCADA Configuration Automation Tools
-- Template DB generation
-- Automated Configuration Generation 
-
-Team IT Infraestructure Productivity Tools
+- IED Automated Configuration Generation
+- SCADA DB Automated Configuration Generation 
 
 Position:
-Project Engineer in ABB's Substation Automation and Protection Division
+Project Engineer in ABB's Power System Substation Automation, Protection and Control Division.
 Employee:
-ABB
+ABB S.A.
 Experience:
 - Control and Protection Schemes design and development.
 - Substation's Electrical Drawings Design and Draft.
 - Project Documentation design and development.
 - Control and Protection Series IEDs configuration.
-- Technical meetings assitance
+- Technical meetings with customers .
 
 Position:
 Research and development intern in the Europe's SensoControl division
@@ -57,8 +55,4 @@ Experience:
 - LABView interface design and programming for device's production chain.
 - Prototypes’ HMI simulators design and develpment for analysis and testing.
 - Project documentation.
-
-
-Research Experience:
-Artificial Vision - License plate number detection for parking control on AForge.Net.
 
