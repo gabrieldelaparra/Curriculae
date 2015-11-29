@@ -1,0 +1,294 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{color}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage[resetlabels]{multibib}
+
+% Set margins.
+\oddsidemargin=0.0in
+\evensidemargin=0.0in
+\textwidth=6.5in
+\voffset=-0.125in
+\headheight=0.0in
+\topmargin=0.0in
+\textheight=9.0in
+
+% Define colors.
+\definecolor{addresscolor}{rgb}{0.2,0.2,0.2}
+\definecolor{datecolor}{rgb}{0.5,0.5,0.5}
+
+% Turn off page numbering
+\pagestyle{fancy}
+\fancyhf{}
+\lfoot{\datestyle Steven K. Tjoa}
+\cfoot{\datestyle \thepage}
+\rfoot{\datestyle November 2010}
+\renewcommand{\headrulewidth}{0.0pt}
+
+% Set parameters and content.
+\newcommand{\namestyle}{\Huge \scshape}
+\newcommand{\deptstyle}{\footnotesize \rmfamily \scshape}
+\newcommand{\addressstyle}{\color{addresscolor} \footnotesize \rmfamily \upshape}
+\newcommand{\datestyle}{\color{datecolor} \footnotesize \rmfamily \upshape}
+
+% Remove list labels.
+\renewcommand{\labelitemi}{}
+\renewcommand{\labelitemii}{}
+
+% Define bibliographies.
+\newcites{j,c}{Journal Publications,Conference Publications}
+
+
+\begin{document}
+
+% Print title.
+\begin{center}
+\namestyle Gabriel De La Parra \\[0.3em]
+\deptstyle Electrical Engineer \\[0.2em]
+\addressstyle Address: Huérfanos 2291, Santiago, Chile \ $\cdot$ Phone: +56 9 622 611 03\\
+Email: ignacio.delaparra@gmail.com \ $\cdot$ Web: http://gabrieldelaparra.github.io
+\end{center}
+
+\small
+
+\section*{Education}
+
+\subparagraph{Ph. D., Electrical Engineering}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 1/2007--present
+\begin{itemize}
+	\item Advisor: Prof. K. J. Ray Liu (IEEE Fellow, IEEE Signal Processing Soc. President-Elect).
+	\item Passed the research proposal exam. Advanced to candidacy.
+	\item Passed the written (Score: 92.5/100; Passing Score: 55.5/100) and oral qualifying examinations.
+\end{itemize}
+
+\subparagraph{M. S., Electrical Engineering}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 8/2004--12/2006
+\begin{itemize}
+	\item Advisor: Prof. K. J. Ray Liu.
+	\item Scholarly Paper: ``Digital Image Source Coder Identification: A Non-Intrusive Forensic Methodology''
+\end{itemize}
+
+\subparagraph{B. S., Computer Engineering}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 8/2000--5/2004
+\begin{itemize}
+	\item University Honors Program.  Citation in Music Performance.  UM Symphony Orchestra.
+\end{itemize}
+
+
+\section*{Research Experience}
+
+\subparagraph{Research Assistant, Dept. of ECE}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 6/2005--present 
+\begin{itemize}
+\item Developed dictionary learning and sparse coding methods for \textit{music information retrieval} tasks such as transcription, source separation, instrument recognition, and more.
+\item Devised novel forensic methods to \textit{detect traces of compression in digital images} based solely upon information intrinsic to the image. Developed a system which can classify the method of compression used upon an image by examining the artifacts caused by image pre-processing, transformation, and quantization.
+\item Received a \textit{Graduate Student Summer Research Fellowship} from the Graduate School for 2008.
+\end{itemize}
+
+\subparagraph{Research Assistant, Dept. of ECE}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 1/2003--8/2003
+\begin{itemize}
+	\item Implemented an indoor location system using a four-antenna array for synchronous data collection following the IEEE 802.11b standard.
+	\item Programmed FPGAs in VHDL. Wrote API programs in C.  Applied frequency estimation algorithms in Matlab.
+\end{itemize}
+
+
+% Publications.
+\bibliographystylej{IEEEtran}
+\bibliographystylec{IEEEtran}
+
+\nocitej{lin-TIFS2009}
+\nocitej{tjoa2010spectemp}
+\nocitec{tjoa-ICASSP2007}
+\nocitec{lin-ICME2007}
+\nocitec{tjoa-ICIP2007}
+\nocitec{tjoa-ICASSP2010-mult}
+\nocitec{tjoa-ICASSP2010-harm}
+\nocitec{stamm-ICASSP2010}
+\nocitec{tjoa-ISMIR2010}
+\nocitec{stamm-ICIP2010}
+
+\bibliographyj{tjoa}
+\bibliographyc{tjoa}
+
+
+\section*{Teaching Experience}
+
+\subparagraph{Co-lecturer, ENEE322}
+University of Maryland $\cdot$ College Park, MD $\cdot$ Fall 2009
+\begin{itemize}
+\item Lectured ENEE322: Signal and System Theory (forty-eight students) for 33\% of the Fall 2009 semester. Designed lesson plans, homework assignments, and exams.
+\item Mentored two teaching assistants. Held regular office hours and review sessions. Graded exams.
+\item Selected Student Feedback: ``The techniques used by Steve work very well for me.'' ``really great balance between theory and examples.'' ``good balance between theory and examples.'' ``extremely well-taught course.'' ``seemed genuinely interested in helping students.'' ``very approachable!'' ``has motivated me to branch into DSP.'' ``has been my best class this semester.'' ``Awesome class!!! my favorite this semester.''
+\end{itemize}
+
+\subparagraph{Teaching Assistant, ENEE408G} 
+University of Maryland $\cdot$ College Park, MD $\cdot$ 1/2006--5/2008
+\begin{itemize}
+\item Taught ENEE408G: Multimedia Signal Processing over five semesters (fifty-seven students total). Administered four design projects per semester. Assisted with final semester projects, providing directions for research. 
+\item Also mentored four groups (twenty students total) in Spring 2010 on final semester projects related to music information retrieval.
+\item Coauthored various assignments and programming guides. Held regular office hours and graded lab reports.
+\item Received the \textit{George Corcoran Memorial Award} from the Department of Electrical and Computer Engineering for the 2006-2007 academic year.
+\item Received a \textit{Distinguished Teaching Assistant Award} from the Center for Teaching Excellence. 
+\item Received a travel grant to the \textit{Lilly-East Conference on College and University Teaching}.
+\end{itemize}
+
+\subparagraph{Teaching Assistant, ENEE241}
+University of Maryland $\cdot$ College Park, MD $\cdot$ Fall 2007, Fall 2010
+\begin{itemize}
+\item Taught ENEE241: Numerical Techniques in Engineering over two semesters (thirty-seven students total).
+\item Held regular office hours. Graded homework assignments and exams.
+\end{itemize}
+
+\subparagraph{Teaching Assistant, ENEE428}
+University of Maryland $\cdot$ College Park, MD $\cdot$ Fall 2005
+\begin{itemize}
+	\item Taught one section (four students) of ENEE428: Communications Design Laboratory. Assisted students with DSP programming of the TI TMS320C6701. Administered lab assignments.
+\item Held office hours and graded lab reports for both sections (sixteen students).
+\end{itemize}
+
+\subparagraph{Honors 100 Section Leader}
+University of Maryland $\cdot$ College Park, MD $\cdot$ Fall 2002
+\begin{itemize}
+	\item Taught a weekly honors seminar (fourteen students), HONR100, as part of the University Honors Program. Introduced college freshmen to the qualities of a liberal education (e.g., diversity, current events, community service, arts), and helped them facilitate the transition from high school to college (e.g., academic planning, campus resources).
+\end{itemize}
+
+\subparagraph{Selected Student Feedback as TA}
+\begin{itemize}
+	\item ``Best TA I've had in EE. Knows material well, explains concepts well.'' ``by far the best TA I ever had at UMD.''  ``great understanding of the subject.'' ``very friendly and approachable.'' ``offers insight and suggestions.'' ``always full of energy.''  ``enthusiastic.'' ``well organized, conveyed concepts clearly.'' ``understands student's needs and difficulties.'' ``fair and sincere.'' ``communicates well.'' ``one of the most dedicated TAs I've had.'' ``one of the most helpful TAs I've come across.'' ``extremely helpful at all times and motivates you to do good work in lab.'' ``holds additional office hours and is very fair at grading reports.''
+\end{itemize}
+
+\section*{Professional Experience}
+
+\subparagraph{Intern, Satellite Management Systems}
+Intelsat $\cdot$ Washington, DC $\cdot$ 6/2004--8/2004
+\begin{itemize}
+\item Performed software tests on telemetry and flight dynamic commanding for Loral Ground Network Systems integration. Assisted with maintenance of software documentation.
+\end{itemize}
+
+\subparagraph{Intern, Satellite Engineering}
+Intelsat $\cdot$ Washington, DC $\cdot$ 6/2002--11/2002
+\begin{itemize}
+\item Performed software and database testing for the IS-X satellite series. Revised acceptance test plans and software requirement specifications.
+\end{itemize}
+
+\section*{Service and Leadership Activities}
+
+\subparagraph{Coordinator, Entrepreneurial Activities}
+U. of Maryland $\cdot$ College Park, MD $\cdot$ 9/2009--present
+\begin{itemize}
+\item Helped organize colloquia and social events related to entrepreneurship.
+\end{itemize}
+	
+\subparagraph{Graduate Dean's Student Advisory Committee}
+U. of Maryland $\cdot$ College Park, MD $\cdot$ 1/2008--present
+\begin{itemize}
+\item Advised the Graduate Dean on matters related to graduate student academic life at the University of Maryland including assistantship policy, mentoring, entrepreneurship, ethics, career placement, inter-departmental collaboration, awards and recognition, revision of the UMD Strategic Plan, renovations, and more. 
+\item Was invited for membership by nomination.
+\end{itemize}
+
+\subparagraph{President, ECEGSA}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 7/2007--6/2008
+\begin{itemize}
+\item Led the Electrical and Computer Engineering Graduate Student Association (ECEGSA), an organization that unites the ECE graduate student body through social, academic, and professional activities.
+\item Managed a board of nine graduate students. Communicated regularly with a graduate student body of over 400. Served as the primary interface between the graduate students and faculty, staff, industry, and professional organizations.
+\item Organized and moderated weekly research seminars, panel discussions, and award ceremonies.
+\item Organized such social events as hiking, skiing, barbecues, weekly coffee hours, and more.
+\item Received the \textit{Graduate Student Service Award} from the Department of Electrical and Computer Engineering for the 2007-2008 academic year.
+\end{itemize}
+
+\subparagraph{Lab Manager}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 6/2007--present
+\begin{itemize}
+	\item Handled everyday concerns related to the Multimedia Signal Processing Laboratory, including computer maintenance, item inventory, and lab organization.
+	\item Designed, created, and maintained the Signals and Information Group web site.
+\end{itemize}
+
+
+\subparagraph{Volunteer, Laboratory Demonstrations}
+University of Maryland $\cdot$ College Park, MD $\cdot$ 4/2006--present
+\begin{itemize}
+    \item Volunteered during several demonstrations in the Multimedia Signal Processing Laboratory, including Maryland Day 2006-2010 and many others.
+    \item Spoke in front of general audiences. Assisted with hands-on demonstrations.
+\end{itemize}
+
+\subparagraph{Conference Volunteer}
+Various international conferences
+\begin{itemize}
+\item Performed administrative tasks at IEEE ICASSP 2007 and ISMIR 2008.
+\item Helped grade the MIREX 2010 contest at ISMIR 2010.
+\end{itemize}
+
+\subparagraph{Community Assistant, Dept. of Resident Life}
+Univ. of Maryland $\cdot$ College Park, MD $\cdot$ 8/2001--8/2002
+\begin{itemize}
+    \item Provided customer service to students, parents, staff, and faculty within the UMD community. Maintained security of keys and packages within North Hill resident halls.
+    \item Received an award for \textit{Community Assistant of the Year} for the 2001-2002 academic year.
+
+\end{itemize}
+
+\section*{Reviewer Activities}
+
+\begin{itemize}
+	\item \textbf{Journals} \ IEEE J. Selected Topics in Signal Processing, IEEE Trans. Information Forensics and Security, IEEE Signal Processing Letters, SPIE J. Electronic Imaging.
+    \item \textbf{Conferences} \ IEEE ICIP (2008, 2010), IEEE ICASSP 2008, IEEE ICCCAS 2006.
+\end{itemize}
+
+
+\section*{Invited Talks}
+
+\begin{itemize}
+\item ``Make It Stick: Get Students to Remember Your Message,'' University of Maryland, College Park, MD, October 27, 2010. Workshop for graduate ECE teaching assistants. Selected feedback: ``I like Steve's workshops, he's good.'' ``Very helpful.'' ``Really useful and interesting.'' ``Informative and very easy to listen to.'' ``That's what every TA needs to know.''
+\item ``Factorizing Bach: Recent Convergences Between Music and Machines,'' University of Maryland, College Park, MD, February 19, 2010. ECEGSA seminar on music information retrieval. Earned an \textit{ECEGSA Best Student Speaker Award} for 2009-10.
+\item ``Public Speaking: Conquering your fears through practice,'' University of Maryland, College Park, MD, March 5, 2009. Workshop for graduate ECE teaching assistants.
+\item ``Time Management for Teaching Assistants: There is Not Enough Time in the Day,'' University of Maryland, College Park, MD, October 16, 2008 and March 8, 2010. Workshop for graduate ECE teaching assistants.
+\end{itemize}
+
+
+\section*{Graduate Coursework}
+
+\begin{itemize}
+
+\item \textbf{Signal Processing} \ Advanced Digital Signal Processing, Digital Image Processing, Space-Time Signal Processing (A+), Statistical Pattern Recognition (A+), Pattern Recognition in Temporal Data, Auditory Scene Analysis (A+)
+
+\item \textbf{Communications} \ Random Processes, Information Theory, Estimation and Detection Theory, Random~Graphs
+
+\item \textbf{Optimization and Controls} \ System Theory, Optimal Control, Advanced Numerical Optimization, Convex Optimization (A+), Networked Control Systems, Foundations of Optimization
+
+\item \textbf{Computing} \ Numerical Analysis, Digital Computer Design, Real-Time Collision Detection
+
+\item \textbf{Future Faculty Program} \ Seminar I/II/III, Teaching Practicum (A+)
+
+\end{itemize}
+
+
+\section*{Computer Skills}
+
+\begin{itemize}
+\item \textbf{Languages} \ Python (favorite), C, Java, Matlab, Perl, PHP, HTML/XML
+\item \textbf{OSs, Servers, Databases} \ Unix, Linux, Apache, Cherokee, MySQL, SQLite
+\item \textbf{Hardware} \ TI TMS320C6701 EVM
+\end{itemize}
+
+
+\section*{Web Site Development}
+
+\begin{itemize}
+\item Signals and Information Group, 8/2005 -- present (http://www.cspl.umd.edu/sig/)
+\item ENEE408G, Spring 2006 -- Spring 2007 (http://www.ece.umd.edu/class/enee408g.S2007/)
+\item IEEE Journal on Selected Areas in Communications, special issue on Cooperative Communications and Networking, 9/2005 -- 8/2006 (http://dsplab.eng.umd.edu/jsac-ccn/)
+\item Language Media Services, 9/2004 -- 8/2005 (http://www.languages.umd.edu/langctr/lms/)
+\end{itemize}
+
+
+\section*{Miscellaneous}
+
+\begin{itemize}
+\item Born in New Jersey, USA. United States citizen.
+\item Studied violin under Ms. Ayako Hosoi (formerly w/ New Jersey SO) and Dr. James Stern (U. Maryland).
+\end{itemize}
+
+
+\end{document}

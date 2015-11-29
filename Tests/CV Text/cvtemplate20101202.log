@@ -1,0 +1,185 @@
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2015.11.26)  28 NOV 2015 20:13
+entering extended mode
+**cvtemplate20101202.tex
+(cvtemplate20101202.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 94.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
+File: xetex.def 2015/09/11 v4.06 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 142.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks15
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multibib\multibib.sty"
+Package: multibib 2008/12/10 v1.4 Multiple bibliographies for one document.
+\mb@biblabelwidth=\count87
+)
+\@auxoutj=\write3
+ (j.aux)
+\@auxoutc=\write4
+
+(c.aux) (cvtemplate20101202.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+Requested font "cmr17" at 24.88pt
+Requested font "cmcsc10" at 24.88pt
+Requested font "cmcsc10" at 8.0pt
+Requested font "cmr8" at 8.0pt
+Missing character: There is no é in font cmr8!
+Requested font "cmr6" at 6.0pt
+Requested font "cmmi8" at 8.0pt
+Requested font "cmmi6" at 6.0pt
+Requested font "cmsy8" at 8.0pt
+Requested font "cmsy6" at 6.0pt
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 50.
+Requested font "cmr9" at 9.0pt
+Requested font "cmr12" at 14.4pt
+Requested font "cmbx12" at 14.4pt
+Requested font "cmbx10" at 10.0pt
+Requested font "cmmi9" at 9.0pt
+Requested font "cmsy9" at 9.0pt
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 59.
+Requested font "cmti9" at 9.0pt
+
+
+LaTeX Warning: Citation `lin-TIFS2009' undefined on input line 102.
+
+
+LaTeX Warning: Citation `tjoa2010spectemp' undefined on input line 103.
+
+
+LaTeX Warning: Citation `tjoa-ICASSP2007' undefined on input line 104.
+
+
+LaTeX Warning: Citation `lin-ICME2007' undefined on input line 105.
+
+
+LaTeX Warning: Citation `tjoa-ICIP2007' undefined on input line 106.
+
+
+LaTeX Warning: Citation `tjoa-ICASSP2010-mult' undefined on input line 107.
+
+
+LaTeX Warning: Citation `tjoa-ICASSP2010-harm' undefined on input line 108.
+
+
+LaTeX Warning: Citation `stamm-ICASSP2010' undefined on input line 109.
+
+
+LaTeX Warning: Citation `tjoa-ISMIR2010' undefined on input line 110.
+
+
+LaTeX Warning: Citation `stamm-ICIP2010' undefined on input line 111.
+
+No file j.bbl.
+No file c.bbl.
+[1
+
+] [2]
+Requested font "cmbx9" at 9.0pt
+ [3]
+Overfull \hbox (2.08742pt too wide) in paragraph at lines 256--257
+[]\OT1/cmr/bx/n/9 Communications  \OT1/cmr/m/n/9 Ran-dom Pro-cesses, In-for-ma-
+tion The-ory, Es-ti-ma-tion and De-tec-tion The-ory, Ran-dom Graphs 
+ []
+
+[4] (cvtemplate20101202.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1137 strings out of 428724
+ 13417 string characters out of 3163137
+ 73405 words of memory out of 3000000
+ 4524 multiletter control sequences out of 15000+200000
+ 8842 words of font info for 31 fonts, out of 3000000 for 9000
+ 1096 hyphenation exceptions out of 8191
+ 27i,11n,43p,689b,320s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on cvtemplate20101202.pdf (4 pages).
