@@ -5,6 +5,9 @@
 \usepackage{enumerate}
 \usepackage{fancyhdr}
 \usepackage[resetlabels]{multibib}
+\usepackage{multicol}
+
+%\usepackage{showframe}
 
 % Set margins.
 \oddsidemargin=-0.50in
@@ -24,7 +27,7 @@
 
 % Set parameters and content.
 \newcommand{\namestyle}{\Huge \scshape}
-\newcommand{\deptstyle}{\footnotesize \rmfamily \scshape}
+\newcommand{\deptstyle}{\small \rmfamily \scshape}
 \newcommand{\addressstyle}{\color{addresscolor} \footnotesize \rmfamily \upshape}
 \newcommand{\datestyle}{\color{datecolor} \footnotesize \rmfamily \upshape}
 
@@ -32,47 +35,61 @@
 \renewcommand{\labelitemi}{}
 \renewcommand{\labelitemii}{}
 
+\makeatletter
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+	{3.25ex \@plus1ex \@minus .2ex}%
+	{0.75ex plus 0.1ex}% space after heading
+	{\normalfont\normalsize\bfseries}}
+\makeatother
+
 
 \begin{document}
 
-	% Print title.
-	\begin{flushright}
-	\namestyle Gabriel de la parra \\[0.3em]
-	\deptstyle Electrical Engineer $\cdot$ Computer Scientist \\[0.2em]
-	\addressstyle Address: Huerfanos 2291, Santiago, Chile\ $\cdot$ Phone: +56 9 622 611 03\\
-	Email: ignacio.delaparra@gmail.com\ $\cdot$ Web: http://gabrieldelaparra.github.io
-	\end{flushright}
-	
-	\small
-	
-	\section*{Education}
-	
-	\subparagraph{M.Sc. in Computer Science}
-		\begin{itemize}
-			\item Universidad de Chile, Chile 
-			\item 2015 - Present
-		\end{itemize}
-	
-	\subparagraph{M.Sc. in Electrical Engineering}
-		\begin{itemize}
-			\item Automation, Measurement and Control
-			\item Technische Universit\"{a}t Dresden, Germany
-			\item 2010-2011
-		\end{itemize}
+% Print title.
+\begin{flushright}
+\namestyle Gabriel de la parra \\[0.1em]
+\deptstyle Electrical Engineer $\cdot$ Computer Scientist \\[0.5em]
+\addressstyle 
+Address: Huerfanos 2291, Santiago, Chile
+\\Phone: +56 9 622 611 03
+\\Email: ignacio.delaparra@gmail.com
+\\Web: http://gabrieldelaparra.github.io
+\end{flushright}
 
-	\subparagraph{M.Sc. in Electrical Engineering}
-		\begin{itemize}
-			\item Process Automation
-			\item Universidad de Santiago de Chile, Chile
-			\item 2007-2009
-		\end{itemize}
+\begin{minipage}{0.3\textwidth} 
+		  
+\section*{Education}
 
-	\subparagraph{B.Sc. in Electrical Engineering}
-		\begin{itemize}
-			\item Universidad de Santiago de Chile, Chile
-			\item 2004-2007
-		\end{itemize}
+\subparagraph{MSc. Computer Science}
+Universidad de Chile
+\\Chile
+\\2015 - Present
 
+\subparagraph{MSc. Electrical Engineering}
+Automation and Control
+\\Technische Universit\"{a}t Dresden
+\\Germany
+\\2010-2011
+
+\subparagraph{MSc. Electrical Engineering}
+Process Automation
+\\Universidad de Santiago de Chile
+\\Chile
+\\2007-2009
+
+\subparagraph{BSc Electrical Engineering}
+Universidad de Santiago de Chile
+\\Chile
+\\2004-2007
+
+\section*{Computer Skills}
+\subparagraph{Office} 
+Word, Excel, PowerPoint, VisualStudio, Visio, Project
+\subparagraph{Languages}
+C\#, Java, \LaTeX, HTML/XML, Matlab, VBS, Assembler
+
+\end{minipage}
+\begin{minipage}{0.7\textwidth} 
 
 	\section*{Professional Experience}	
 	
@@ -110,13 +127,11 @@
 \subitem LABView interface design and programming for device's production chain.
 \subitem Prototypes’ HMI simulators design and develpment for analysis and testing.
 \subitem Project documentation.
-	\end{itemize}
+	\end{itemize}	
+
+\end{minipage}
+%\end{multicols*}
 	
-	\section*{Computer Skills}
 	
-	\begin{itemize}
-		\item \textbf{Office} \ Word, Excel, PowerPoint, VisualStudio, Visio, Project
-		\item \textbf{Languages} \ C\#, Java, \LaTeX, HTML/XML, Matlab, VBS, Assembler
-	\end{itemize}		
 	
 \end{document}
