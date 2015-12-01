@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2015.11.26)  30 NOV 2015 23:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2015.11.26)  30 NOV 2015 23:48
 entering extended mode
 **"Gabriel De La Parra - Nov2015 - CV.tex"
 ("Gabriel De La Parra - Nov2015 - CV.tex"
@@ -504,8 +504,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  []
 
 
-Underfull \hbox (badness 8019) in paragraph at lines 108--109
-\OT1/cmr/m/n/10 Share-point, SQL, EP-Plus, Of-fice
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+\OT1/cmr/m/n/10 XAML/WPF, MVVM (Cal-iburn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+\OT1/cmr/m/n/10 Mi-cro), Trello, Git, Share-point
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+\OT1/cmr/m/n/10 (CSOM), SQL, EP-Plus, Of-fice
  []
 
 
@@ -517,7 +527,7 @@ Requested font "cmbx12" at 12.0pt
 Requested font "cmti10" at 10.0pt
 Missing character: There is no ’ in font cmr10!
 
-Overfull \hbox (0.4201pt too wide) in paragraph at lines 80--181
+Overfull \hbox (0.4201pt too wide) in paragraph at lines 80--180
 []$[]$ $[]$ 
  []
 
