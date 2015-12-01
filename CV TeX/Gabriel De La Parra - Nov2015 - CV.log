@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2015.11.26)  30 NOV 2015 23:48
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2015.11.26)  1 DEC 2015 00:03
 entering extended mode
 **"Gabriel De La Parra - Nov2015 - CV.tex"
 ("Gabriel De La Parra - Nov2015 - CV.tex"
@@ -498,36 +498,11 @@ Overfull \hbox (0.4201pt too wide) in paragraph at lines 58--78
 Requested font "cmr12" at 14.4pt
 Requested font "cmbx12" at 14.4pt
 Requested font "cmbx10" at 10.0pt
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-[]\OT1/cmr/m/n/10 C#, Java, L[]T[]X, HTML/XML,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-\OT1/cmr/m/n/10 XAML/WPF, MVVM (Cal-iburn
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-\OT1/cmr/m/n/10 Mi-cro), Trello, Git, Share-point
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-\OT1/cmr/m/n/10 (CSOM), SQL, EP-Plus, Of-fice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-\OT1/cmr/m/n/10 In-terop, OpenXML, AForge.Net,
- []
-
 Requested font "cmbx12" at 12.0pt
 Requested font "cmti10" at 10.0pt
 Missing character: There is no ’ in font cmr10!
 
-Overfull \hbox (0.4201pt too wide) in paragraph at lines 80--180
+Overfull \hbox (0.4201pt too wide) in paragraph at lines 80--186
 []$[]$ $[]$ 
  []
 
@@ -537,7 +512,7 @@ Overfull \hbox (0.4201pt too wide) in paragraph at lines 80--180
 Here is how much of TeX's memory you used:
  11139 strings out of 428724
  224288 string characters out of 3163137
- 266394 words of memory out of 3000000
+ 266391 words of memory out of 3000000
  14335 multiletter control sequences out of 15000+200000
  8530 words of font info for 30 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
