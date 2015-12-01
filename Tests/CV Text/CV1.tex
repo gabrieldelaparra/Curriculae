@@ -7,13 +7,14 @@
 \usepackage{fancyhdr}
 \usepackage[resetlabels]{multibib}
 \usepackage{multicol}
+\usepackage{tikz}
 
 %\usepackage{showframe}
 
 % Set margins.
 \oddsidemargin=-0.50in
 \textwidth=7in
-\topmargin=-1in
+\topmargin=-1.5in
 \textheight=10.0in
 
 % Define colors.
@@ -45,8 +46,15 @@
 
 
 \begin{document}
+\begin{tikzpicture}[remember picture,overlay]
+\node[xshift=0cm] at (current page.south west)
+{\begin{tikzpicture}[remember picture, overlay] 
+	\fill[black!10!white] (7.5,0) rectangle (0,\paperheight);
+	\end{tikzpicture}
+};
+\end{tikzpicture}
 
-% Print title.
+
 \begin{flushright}
 \namestyle \color{MidnightBlue} Gabriel de la parra \\[0.1em]
 \deptstyle \color{black} Electrical Engineer $\cdot$ Computer Scientist \\[0.5em]
@@ -84,55 +92,56 @@ Universidad de Santiago de Chile
 \\2004-2007
 
 \section*{\color{MidnightBlue} Computer Skills}
-\subparagraph{Office} 
-Word, Excel, PowerPoint, VisualStudio, Visio, Project
-\subparagraph{Languages}
-C\#, Java, \LaTeX, HTML/XML, Matlab, VBS, Assembler
+\subparagraph{Programming}
+C\#, Java, \LaTeX, HTML/XML, Matlab, VBS, Assembler, SQL, 
+\subparagraph{Office}
+Access, VisualStudio, Visio, Project
+
+\section*{\color{MidnightBlue} Languages}
+\subparagraph{Spanish}
+\subparagraph{English}
+\subparagraph{German}
+
 
 \end{minipage}
 \begin{minipage}{0.7\textwidth} 
+\begin{flushright}
+\section*{\color{MidnightBlue} Professional Experience}	
+\subparagraph{\large{Research and Development Engineer}}
+\textbf{ABB S.A. $\bullet$ 2013 - Present $\bullet$ Chile}
+\\\textit{Power System Substation Automation, Protection and Control Division}
+\\[1em]\textbf{Automation Tools for Productivity Improvement}
+\\Substation Electrical Drawings
+\\Project Documentation
+\\IEDs Configuration
+\\SCADA Configuration
+\\Team Infraestructure Productivity
+\\[2em]	
+\subparagraph{\large{Project Engineer}}
+\textbf{ABB S.A. $\bullet$ 2011 - Present $\bullet$  Chile}
+\\\textit{Power System Substation Automation, Protection and Control Division}
+\\[1em]\textbf{Projects Responsabilities}
+\\Control and Protection Schemes design and development
+\\Substation's Electrical Drawings Design and Draft
+\\Project Documentation design and development
+\\Control and Protection Series IEDs configuration
+\\Technical meetings with customers
+\\[2em]			
+\subparagraph{\large{Research and Development Intern}}
+\textbf{Parker Hannifin GmbH $\bullet$ 2010 - 2011 $\bullet$  Germany}
+\\\textit{Europe's SensoControl R\&D Division}
+\\[1em]\textbf{USB - IOLink interface prototype}
+\\Circuit/PCB design, construction and testing.
+\\System Design based on the IOLink Standard. 
+\\Hardware and software design, construction, programming, testing.
+\\COM Wrappers for unmanaged C libraries.
+\\LABView interface design and programming for device's production chain.
+\\Prototypes’ HMI simulators design and develpment for analysis and testing.
+\\Project documentation.
 
-	\section*{\color{MidnightBlue} Professional Experience}	
-	
-	\subparagraph{Research and Development Engineer}
-	\begin{itemize}
-		\item \textbf{ABB S.A. $\bullet$ 2013 - Present $\bullet$  Chile}
-		\item \textit{Power System Substation Automation, Protection and Control Division}
-			\subitem Substation Electrical Drawings Automation Tools
-			\subitem Project Documentation Automation Tools
-			\subitem IEDs Configuration Automation Tools
-			\subitem SCADA Configuration Automation Tools
-			\subitem Team IT Infraestructure Productivity Tools
-	\end{itemize}
-	
-	\subparagraph{Project Engineer}
-	\begin{itemize}
-		\item \textbf{ABB S.A. $\bullet$ 2011 - Present $\bullet$  Chile}
-		\item \textit{Power System Substation Automation, Protection and Control Division}
-				\subitem Control and Protection Schemes design and development
-				\subitem Substation's Electrical Drawings Design and Draft
-				\subitem Project Documentation design and development
-				\subitem Control and Protection Series IEDs configuration
-				\subitem Technical meetings with customers
-		\end{itemize}
-		
-	\subparagraph{Research and development Intern}
-	\begin{itemize}
-		\item \textbf{Parker Hannifin GmbH $\bullet$ 2010 - 2011 $\bullet$  Germany}
-		\item \textit{Europe's SensoControl Division: USB - IOLink interface prototype}
-%		\item {\footnotesize }
-\subitem Circuit/PCB design, construction and testing.
-\subitem System Design based on the IOLink Standard. 
-\subitem Hardware and software design, construction, programming, testing.
-\subitem COM Wrappers for unmanaged C libraries.
-\subitem LABView interface design and programming for device's production chain.
-\subitem Prototypes’ HMI simulators design and develpment for analysis and testing.
-\subitem Project documentation.
-	\end{itemize}	
+\end{flushright}
 
 \end{minipage}
-%\end{multicols*}
-	
 	
 	
 \end{document}
