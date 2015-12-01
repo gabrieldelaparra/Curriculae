@@ -12,10 +12,10 @@
 %\usepackage{showframe}
 
 % Set margins.
-\oddsidemargin=-0.50in
-\textwidth=7in
-\topmargin=-1.5in
-\textheight=10.0in
+\oddsidemargin=-0.75in
+\textwidth=7.75in
+\topmargin=-1.2in
+\textheight=9.8in
 
 % Define colors.
 \definecolor{addresscolor}{rgb}{0.2,0.2,0.2}
@@ -24,7 +24,7 @@
 % Turn off page numbering
 \pagestyle{fancy}
 \fancyhf{}
-\lfoot{\datestyle Gabriel De la Parra}
+%\lfoot{\datestyle Gabriel De la Parra}
 \rfoot{\datestyle November 2015}
 
 % Set parameters and content.
@@ -49,24 +49,36 @@
 \begin{tikzpicture}[remember picture,overlay]
 \node[xshift=0cm] at (current page.south west)
 {\begin{tikzpicture}[remember picture, overlay] 
-	\fill[black!10!white] (7.5,0) rectangle (0,\paperheight);
+	\fill[blue!4!white] (7.5,0) rectangle (0,\paperheight);
 	\end{tikzpicture}
 };
 \end{tikzpicture}
 
 
+\begin{minipage}{0.25\textwidth}
+\begin{center}
+%	\includegraphics[width=25mm]{qrcode.png}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.72\textwidth}
 \begin{flushright}
 \namestyle \color{MidnightBlue} Gabriel de la parra \\[0.1em]
 \deptstyle \color{black} Electrical Engineer $\cdot$ Computer Scientist \\[0.5em]
 \addressstyle 
-Address: Huerfanos 2291, Santiago, Chile
+Address: Huerfanos 2291, 8340439, Santiago, Chile
 \\Phone: +56 9 622 611 03
 \\Email: ignacio.delaparra@gmail.com
-\\Web: http://gabrieldelaparra.github.io
+\linebreak[3]
+\linebreak[3]
+\linebreak[3]
+%\linebreak[3]
+%\\Web: http://gabrieldelaparra.github.io
 \end{flushright}
+\end{minipage}
+
 
 \begin{minipage}{0.3\textwidth} 
-		  
+
 \section*{\color{MidnightBlue} Education}
 
 \subparagraph{MSc. Computer Science}
@@ -93,29 +105,37 @@ Universidad de Santiago de Chile
 
 \section*{\color{MidnightBlue} Computer Skills}
 \subparagraph{Programming}
-C\#, Java, \LaTeX, HTML/XML, Matlab, VBS, Assembler, SQL, 
+C\#, Java, \LaTeX, HTML/XML, XAML/WPF, MVVM, Trello, Github, Sharepoint, SQL, EPPlus, Office Interop, OpenXML, AForge.Net, Matlab, VBScript, Assembler, 
 \subparagraph{Office}
-Access, VisualStudio, Visio, Project
+Word, Excel, PowerPoint, Visio, 
+\\VisualStudio, Access, Project
 
 \section*{\color{MidnightBlue} Languages}
 \subparagraph{Spanish}
 \subparagraph{English}
 \subparagraph{German}
-
+%\linebreak[3]
+%	\includegraphics[width=20mm]{qrcode.png}	
 
 \end{minipage}
-\begin{minipage}{0.7\textwidth} 
+\begin{minipage}{0.67\textwidth} 
 \begin{flushright}
 \section*{\color{MidnightBlue} Professional Experience}	
 \subparagraph{\large{Research and Development Engineer}}
 \textbf{ABB S.A. $\bullet$ 2013 - Present $\bullet$ Chile}
 \\\textit{Power System Substation Automation, Protection and Control Division}
-\\[1em]\textbf{Automation Tools for Productivity Improvement}
-\\Substation Electrical Drawings
-\\Project Documentation
-\\IEDs Configuration
-\\SCADA Configuration
-\\Team Infraestructure Productivity
+\\[1em]\textbf{Software Tools for Quality \& Productivity Improvement}
+\\Substation Electrical Drawings%: C\#, WPF, Zuken's E$^{3}$
+\\Project Documentation%: C\#, EPPlus, OfficeInterop
+\\IEDs Configuration%: C\#, XML, SQL
+\\SCADA Configuration%: C\#, XML
+\\Team IT Infraestructure Productivity%: C\#, Sharepoint
+\\[1em]\textbf{Hardware Devices for Testing Productivity Increase}
+\\Binary Input Interface
+\\SwitchGear Primary Equipment Simulators
+\\[1em]\textbf{Global Products and Technologies Key User}
+\\Zuken's E$^{3}$ Series
+\\ABB Internal CyberSecurity
 \\[2em]	
 \subparagraph{\large{Project Engineer}}
 \textbf{ABB S.A. $\bullet$ 2011 - Present $\bullet$  Chile}
@@ -131,17 +151,34 @@ Access, VisualStudio, Visio, Project
 \textbf{Parker Hannifin GmbH $\bullet$ 2010 - 2011 $\bullet$  Germany}
 \\\textit{Europe's SensoControl R\&D Division}
 \\[1em]\textbf{USB - IOLink interface prototype}
-\\Circuit/PCB design, construction and testing.
-\\System Design based on the IOLink Standard. 
-\\Hardware and software design, construction, programming, testing.
-\\COM Wrappers for unmanaged C libraries.
-\\LABView interface design and programming for device's production chain.
-\\Prototypes’ HMI simulators design and develpment for analysis and testing.
-\\Project documentation.
+\\Circuit/PCB design, construction and testing
+\\System Design based on the IOLink Standard
+\\Hardware and software design, construction, programming, testing
+%\\COM Wrappers for unmanaged C libraries
+\\LABView interface design and programming for device's production chain
+\\Prototypes’ HMI simulators design and develpment for analysis and testing
+%\\Project documentation
+\section*{\color{MidnightBlue} References}	
 
+\begin{minipage}{2.3in}
+\begin{flushright}
+\textbf{Ronald Vald\'{e}s}
+\\\textit{Product Group Manager Chile}
+\\ronald.valdes@cl.abb.com
+\end{flushright}
+\end{minipage}
+\begin{minipage}{2.3in}
+\begin{flushright}
+\textbf{Rafael Pedrucci}
+\\\textit{PSAC Hub Manager Latam}
+\\rafael.pedrucci@cl.abb.com
+\end{flushright}
+\end{minipage}
 \end{flushright}
 
-\end{minipage}
-	
+\end{minipage}	
+%\begin{center}
+
+%\end{center}
 	
 \end{document}
